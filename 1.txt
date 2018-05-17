@@ -1,3 +1,9 @@
 开始使用git:
 
 1、通过git init把文件夹变成git可管理的仓库
+2、把放到git仓库
+3、通过git add 文件名  添加到仓库
+4、通过git commit -m "提交的一些信息"  提交到仓库
+
+查看哪个文件被修改过：git status
+查看所有文件修改的具体内容：git diff
