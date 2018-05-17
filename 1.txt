@@ -9,7 +9,8 @@
   查看哪个文件被修改过：git status
   查看所有文件修改的具体内容：git diff
 
-查看所有提交的版本：git log  包含通过commit提交的版本描述信息以及commit的id号
+查看所有提交的版本：git log  包含通过commit提交的版本描述信息以及commit的id号    注意：如果回退到历史版本，最新提交的版本的commit的id号将不在git log中出现
+不过使用git reflog即可查看你每次提交的命令，即可看到版本回退的commit的id
 
 版本回退
   回退上一个版本：git reset --hard HEAD^       HEAD^表示回退上一个提交的版本 HEAD^^表示回退上上个版本，以此类推..
