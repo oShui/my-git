@@ -14,4 +14,4 @@
 
 版本回退
   回退上一个版本：git reset --hard HEAD^       HEAD^表示回退上一个提交的版本 HEAD^^表示回退上上个版本，以此类推..
-  回退指定版本：git reset --hard 提交的
+  回退指定版本：git reset --hard 提交的commit的id
